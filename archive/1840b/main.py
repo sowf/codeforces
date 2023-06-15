@@ -8,7 +8,7 @@ input = lambda:sys.stdin.readline()
 t = int(input().strip())
 
 
-# VERDICT: TLE
+# VERDICT: OK
 for _ in range(t):
     n, k = [int(x.strip()) for x in input().split()]
     if k > math.log2(n):
